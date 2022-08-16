@@ -1,0 +1,18 @@
+{
+  "name": "test-chrome-extension",
+  "version": "1.0.0",
+  "author": "Philippe Arteau",
+  "scripts": {
+    "start": "npx webpack serve --mode development",
+    "build": "npx webpack --mode production"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.8.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3",
+    "webpack-target-webextension": "^1.0.3"
+  }
+}
